@@ -1,12 +1,9 @@
 <template>
 
 <div>
-<Navbar>
+<Navbar/>
 
-<slot></slot>
-
-</Navbar>
-<div :style="{marginBottom:'100px'}"></div>
+<div :style="{marginBottom:'10vh'}"></div>
 
 </div>
 

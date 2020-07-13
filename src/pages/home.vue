@@ -108,7 +108,7 @@ export default {
 
 .product__container{
     margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
     display: grid;
     grid-template-columns:repeat(auto-fit , 250px);
     grid-column-gap: 30px;

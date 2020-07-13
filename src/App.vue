@@ -1,9 +1,22 @@
 <template>
   <div id="app">
+
     <Layout>
     </Layout> 
 
 <router-view></router-view>
+
+<div :style="{
+  display:'flex',
+  padding:'15px',
+  justifyContent:'center',
+  fontSize:'25px',
+  color:'#fff',
+  backgroundColor:'#212121',
+  width:'100%',
+  position:'absolute',
+  bottom:'0%',
+}">&copy; Shubham Dogra</div>
 
 
   </div>
@@ -33,6 +46,11 @@ export default {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+#app{
+  position: relative;
+  min-height: 90vh;
 }
 
 
