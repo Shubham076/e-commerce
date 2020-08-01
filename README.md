@@ -22,3 +22,7 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+## For backend of project 
+Click [here](
+https://github.com/Shubham076/E-commerce-functions)
